@@ -83,7 +83,6 @@ const promptUserInput = () => {
   });
 }
 
-console.log(gameBoard[0]);
 console.log(gameBoard[1]);
 console.log(gameBoard[2]);
 
