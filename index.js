@@ -78,6 +78,7 @@ const promptUserInput = () => {
       // add some comments
       promptUserInput();
     } else {
+      // add more comments
       console.log(winner + ' is the winner!');
       rl.close();
     }
