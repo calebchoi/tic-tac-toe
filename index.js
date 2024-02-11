@@ -75,10 +75,8 @@ const promptUserInput = () => {
     console.log(gameBoard[2]);
 
     if (!gameEnded) {
-      // add some comments
       promptUserInput();
     } else {
-      // add more comments
       console.log(winner + ' is the winner!');
       rl.close();
     }
