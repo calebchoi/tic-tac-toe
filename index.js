@@ -75,7 +75,6 @@ const promptUserInput = () => {
     console.log(gameBoard[2]);
 
     // adding new comments
-
     if (!gameEnded) {
       promptUserInput();
     } else {
